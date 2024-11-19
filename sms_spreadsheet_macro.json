@@ -1,0 +1,79 @@
+{
+  "macro": {
+    "disabledTimestamp": 0,
+    "exportedActionBlocks": [],
+    "forceEvenIfNotEnabledTimestamp": 0,
+    "isActionBlock": false,
+    "isBeingImported": false,
+    "isClonedInstance": false,
+    "isExtra": false,
+    "isFavourite": false,
+    "lastEditedTimestamp": 1727658492809,
+    "localVariables": [],
+    "m_GUID": -6181954037268903588,
+    "m_actionList": [
+      {
+        "requestConfig": {
+          "allowAnyCertificate": false,
+          "basicAuthEnabled": false,
+          "basicAuthPassword": "",
+          "basicAuthUsername": "",
+          "blockNextAction": false,
+          "contentBodyFileDisplayName": "",
+          "contentBodyFileUri": "",
+          "contentBodySource": 0,
+          "contentBodyText": "{\"sender\": {sms_number}, \"text\": {sms_message}, \"type\": \"sms, \"acc\": \"1234\", \"card\": \"9876\"}",
+          "contentType": "application/json",
+          "followRedirects": false,
+          "headerParams": [],
+          "queryParams": [],
+          "requestTimeOutSeconds": 30,
+          "requestType": 1,
+          "saveResponseFileName": "",
+          "saveResponseFolderPathDisplayName": "",
+          "saveResponseFolderPathUri": "",
+          "saveResponseType": 0,
+          "saveReturnCodeToVariable": false,
+          "saveReturnHeadersToVariable": false,
+          "urlToOpen": ""
+        },
+        "m_SIGUID": -4639311118583929421,
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_category": "Uncategorized",
+    "m_constraintList": [],
+    "m_description": "",
+    "m_descriptionOpen": false,
+    "m_enabled": false,
+    "m_excludeLog": false,
+    "m_headingColor": 0,
+    "m_isOrCondition": false,
+    "m_name": "sms_spreadsheet",
+    "m_triggerList": [
+      {
+        "enableRegex": false,
+        "ignoreCase": true,
+        "isExcludeContact": false,
+        "m_exactMatch": false,
+        "m_excludes": false,
+        "m_groupIdList": [],
+        "m_groupNameList": [],
+        "m_option": 3,
+        "m_smsContent": "",
+        "m_smsFromList": [],
+        "m_smsNumberExclude": false,
+        "subscriptionId": -1,
+        "m_SIGUID": -4752822487929651155,
+        "m_classType": "IncomingSMSTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ]
+  },
+  "macroExportVersion": 1
+}

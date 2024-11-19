@@ -1,0 +1,83 @@
+{
+  "macro": {
+    "disabledTimestamp": 0,
+    "exportedActionBlocks": [],
+    "forceEvenIfNotEnabledTimestamp": 0,
+    "isActionBlock": false,
+    "isBeingImported": false,
+    "isClonedInstance": false,
+    "isExtra": false,
+    "isFavourite": false,
+    "lastEditedTimestamp": 1727658519159,
+    "localVariables": [],
+    "m_GUID": -5164538162493791735,
+    "m_actionList": [
+      {
+        "requestConfig": {
+          "allowAnyCertificate": false,
+          "basicAuthEnabled": false,
+          "basicAuthPassword": "",
+          "basicAuthUsername": "",
+          "blockNextAction": false,
+          "contentBodyFileDisplayName": "",
+          "contentBodyFileUri": "",
+          "contentBodySource": 0,
+          "contentBodyText": "{\"sender\": {not_title}, \"text\": {not_text_big}, \"type\": \"push\", \"acc\": \"1234\", \"card\": \"9876\"}",
+          "contentType": "application/json",
+          "followRedirects": false,
+          "headerParams": [],
+          "queryParams": [],
+          "requestTimeOutSeconds": 30,
+          "requestType": 1,
+          "saveResponseFileName": "",
+          "saveResponseFolderPathDisplayName": "",
+          "saveResponseFolderPathUri": "",
+          "saveResponseType": 0,
+          "saveReturnCodeToVariable": false,
+          "saveReturnHeadersToVariable": false,
+          "urlToOpen": ""
+        },
+        "m_SIGUID": -6646664555225806082,
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_category": "Uncategorized",
+    "m_constraintList": [],
+    "m_description": "",
+    "m_descriptionOpen": false,
+    "m_enabled": false,
+    "m_excludeLog": false,
+    "m_headingColor": 0,
+    "m_isOrCondition": false,
+    "m_name": "push_spreadsheet",
+    "m_triggerList": [
+      {
+        "enableRegex": false,
+        "ignoreCase": true,
+        "m_applicationNameList": [
+          "POLARIS"
+        ],
+        "m_exactMatch": false,
+        "m_excludeApps": false,
+        "m_excludes": false,
+        "m_ignoreOngoing": true,
+        "m_option": 0,
+        "m_packageNameList": [
+          "com.polaris.iot"
+        ],
+        "m_soundOption": 0,
+        "m_supressMultiples": true,
+        "m_textContent": "",
+        "m_SIGUID": -7239632318276091452,
+        "m_classType": "NotificationTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ]
+  },
+  "macroExportVersion": 1
+}
