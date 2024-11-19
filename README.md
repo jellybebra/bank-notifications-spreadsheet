@@ -1,8 +1,6 @@
-# Автоматическая запись данных в Google Таблицу с помощью MacroDroid
+# Запись SMS и PUSH в Google Таблицу
 
-Этот гайд поможет вам настроить автоматическую запись данных из SMS и push-уведомлений в Google Таблицу.
-
-### Шаг 1: Создание Google аккаунта
+## Шаг 1: Создание Google аккаунта
 1. В настройках телефона заходим в пункт "Аккаунты"
 
    <img src="screenshots/account/1accounts.jpg" width="400px">
@@ -21,7 +19,7 @@
    
 5. Заполняем данные
 
-### Шаг 2: Предоставление доступа к таблице
+## Шаг 2: Предоставление доступа к таблице
 1. В таблице нажимаем "Настройки Доступа" (в правом верхнем углу)
 2. Вводим почту созданного аккаунта и нажимаем на всплывшую подсказку
 
@@ -31,7 +29,7 @@
 
    <img src="screenshots/table/3editor.png" width="400px">
 
-### Шаг 3: Создание проекта в Google Apps Script
+## Шаг 3: Создание проекта в Google Apps Script
 1. Открываем окно в режиме инкогнито (`CTRL`+`SHIFT`+`N` или `CTRL`+`SHIFT`+`P`)
 2. Заходим на https://google.com/, нажимаем "Войти" и заходим в созданный аккаунт
    ![image](screenshots/script/1login.png)
@@ -65,7 +63,7 @@
 17. Копируем ссылку
     ![image](screenshots/script/15copy.png)
 
-### Шаг 4: Настройка MacroDroid
+## Шаг 4: Настройка MacroDroid
 
 1. Установить [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) из Play Store
 2. **Для SMS:**:
