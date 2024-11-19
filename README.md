@@ -15,22 +15,33 @@
 
 ### Создание Google аккаунта
 1. В настройках телефона заходим в пункт "Аккаунты"
-   ![image](screenshots/account/1accounts.jpg)
+
+   <img src="screenshots/account/1accounts.jpg" width="400px">
+   
 2. Нажимаем "Добавить аккаунт"
-   ![image](screenshots/account/2createaccount.jpg)
+
+   <img src="screenshots/account/2createaccount.jpg" width="400px">
+   
 3. Выбираем Google
-   ![image](screenshots/account/3choosegoogle.jpg)
+
+   <img src="screenshots/account/3choosegoogle.jpg" width="400px">
+   
 4. Нажимаем "Создать аккаунт" -> "Для личного пользования"
-   ![image](screenshots/account/4typeofaccount.jpg)
+
+   <img src="screenshots/account/4typeofaccount.jpg" width="400px">
+   
 5. Заполняем данные
 
 ### Предоставление доступа к таблице
 1. В таблице нажимаем "Настройки Доступа"
    ![image](screenshots/table/1table.png)
 2. Вводим почту созданного аккаунта и нажимаем на всплывшую подсказку
-   ![image](screenshots/table/2addemail.png)
+
+   <img src="screenshots/table/2addemail.png" width="400px">
+   
 3. Проверяем, что справа выставлен режим доступа "Редактор" и нажимаем "Отправить"
-   ![image](screenshots/table/3editor.png)
+
+   <img src="screenshots/table/3editor.png" width="400px">
 
 ### Создание проекта в Google Apps Script
 1. Открываем окно в режиме инкогнито (`CTRL`+`SHIFT`+`N` или `CTRL`+`SHIFT`+`P`)
@@ -69,13 +80,19 @@
 ### Настройка MacroDroid
 
 1. Установить MacroDroid из Play Store
-    ![image](screenshots/macrodroid/1macrodroid.jpg)
+
+   <img src="screenshots/macrodroid/1macrodroid.jpg" width="400px">
+   
 2. Качаем [макрос для SMS](sms_spreadsheet_macro.json)
 3. Открываем макрос, нажимаем "HTTP-запрос (POST)" -> "Настроить"
 4. Вставляем ссылку, скопированную ранее
-   ![image](screenshots/macrodroid/3url.png)
+
+   <img src="screenshots/macrodroid/3url.png" width="400px">
+    
 5. Меняем цифры в "acc" на последние 4 цифры номера счёта и цифры в "card" на последние 4 цифры карты
-   ![image](screenshots/macrodroid/4body.png)
+
+   <img src="screenshots/macrodroid/4body.png" width="400px">
+   
 6. Качаем [макрос для PUSH-уведомлений](push_spreadsheet_macro.json)
 7. Открываем макрос, нажимаем "Получено уведомление" -> "Настроить"
 8. Нажимаем "Получено уведомление" -> "OK"
@@ -83,6 +100,9 @@
 10. Выбираем нужное(ые) приложение(я) -> "ОК" -> "ОК"
 11. Нажимаем "HTTP-запрос (POST)" -> "Настроить"
 12. Вставляем ссылку, скопированную ранее
-    ![image](screenshots/macrodroid/3url.png)
+
+    <img src="screenshots/macrodroid/3url.png" width="400px">
+
 13. Меняем цифры в "acc" на последние 4 цифры номера счёта и цифры в "card" на последние 4 цифры карты
-    ![image](screenshots/macrodroid/4body.png)
+    
+    <img src="screenshots/macrodroid/4body.png" width="400px">
