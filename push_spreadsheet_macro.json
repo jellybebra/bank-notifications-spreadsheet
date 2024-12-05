@@ -10,9 +10,13 @@
     "isFavourite": false,
     "lastEditedTimestamp": 1727658519159,
     "localVariables": [],
-    "m_GUID": -5164538162493791735,
     "m_actionList": [
       {
+        "m_classType": "HttpRequestAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false,
+        "m_SIGUID": -6646664555225806000,
         "requestConfig": {
           "allowAnyCertificate": false,
           "basicAuthEnabled": false,
@@ -22,7 +26,7 @@
           "contentBodyFileDisplayName": "",
           "contentBodyFileUri": "",
           "contentBodySource": 0,
-          "contentBodyText": "{\"sender\": {not_title}, \"text\": {not_text_big}, \"type\": \"push\", \"acc\": \"1234\", \"card\": \"9876\"}",
+          "contentBodyText": "{\"sender\": \"{not_title}\", \"text\": \"{not_text_big}\", \"type\": \"push\", \"acc\": \"1234\", \"card\": \"9876\"}",
           "contentType": "application/json",
           "followRedirects": false,
           "headerParams": [],
@@ -36,20 +40,16 @@
           "saveReturnCodeToVariable": false,
           "saveReturnHeadersToVariable": false,
           "urlToOpen": ""
-        },
-        "m_SIGUID": -6646664555225806082,
-        "m_classType": "HttpRequestAction",
-        "m_constraintList": [],
-        "m_isDisabled": false,
-        "m_isOrCondition": false
+        }
       }
     ],
     "m_category": "Uncategorized",
     "m_constraintList": [],
-    "m_description": "",
+    "m_description": "Writes notifications to table.",
     "m_descriptionOpen": false,
     "m_enabled": false,
     "m_excludeLog": false,
+    "m_GUID": -5164538162493791000,
     "m_headingColor": 0,
     "m_isOrCondition": false,
     "m_name": "push_spreadsheet",
@@ -58,24 +58,39 @@
         "enableRegex": false,
         "ignoreCase": true,
         "m_applicationNameList": [
-          "POLARIS"
+          "\u0421\u0431\u0435\u0440\u0411\u0430\u043d\u043a",
+          "\u0422\u0438\u043d\u044c\u043a\u043e\u0444\u0444",
+          "Uralsib",
+          "\u0420\u041e\u0421\u0411\u0410\u041d\u041a",
+          "Raiffeisen",
+          "\u0412\u0422\u0411",
+          "\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a",
+          "\u041e\u0422\u041f \u0411\u0430\u043d\u043a \u041e\u043d\u043b\u0430\u0439\u043d",
+          "\u041e\u0422\u041f \u0411\u0430\u043d\u043a"
         ],
+        "m_classType": "NotificationTrigger",
+        "m_constraintList": [],
         "m_exactMatch": false,
         "m_excludeApps": false,
         "m_excludes": false,
-        "m_ignoreOngoing": true,
+        "m_ignoreOngoing": false,
+        "m_isDisabled": false,
+        "m_isOrCondition": false,
         "m_option": 0,
         "m_packageNameList": [
-          "com.polaris.iot"
+          "ru.sberbankmobile",
+          "com.idamob.tinkoff.android",
+          "ru.bankuralsib.mb.android",
+          "ru.rosbank.android.beta",
+          "ru.raiffeisennews",
+          "ru.vtb24.mobilebanking.android",
+          "ru.alfabank.mobile.android",
+          "ru.otpbank.mobile"
         ],
+        "m_SIGUID": -7239632318276092000,
         "m_soundOption": 0,
-        "m_supressMultiples": true,
-        "m_textContent": "",
-        "m_SIGUID": -7239632318276091452,
-        "m_classType": "NotificationTrigger",
-        "m_constraintList": [],
-        "m_isDisabled": false,
-        "m_isOrCondition": false
+        "m_supressMultiples": false,
+        "m_textContent": ""
       }
     ]
   },
