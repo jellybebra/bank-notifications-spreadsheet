@@ -167,25 +167,6 @@
         "m_smsNumber": "SBERBANK",
         "m_smsNumberExclude": false,
         "subscriptionId": -1
-      },
-      {
-        "enableRegex": false,
-        "isExcludeContact": false,
-        "m_classType": "IncomingSMSTrigger",
-        "m_constraintList": [],
-        "m_exactMatch": false,
-        "m_excludes": false,
-        "m_groupIdList": [],
-        "m_groupNameList": [],
-        "m_isDisabled": false,
-        "m_isOrCondition": false,
-        "m_option": 2,
-        "m_SIGUID": -5318722291081127000,
-        "m_smsContent": "",
-        "m_smsFromList": [],
-        "m_smsNumber": "VTB",
-        "m_smsNumberExclude": false,
-        "subscriptionId": -1
       }
     ]
   },

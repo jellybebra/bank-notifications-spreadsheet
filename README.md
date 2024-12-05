@@ -66,22 +66,29 @@
 
 ## Шаг 4: Настройка MacroDroid
 
-1. Установить [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) из Play Store
-2. **Для SMS:**:
-   - Качаем [макрос для SMS](sms_spreadsheet_macro.json)
+1. Устанавливаем [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid) из Play Store
+2. Переходим в "Настройки" -> "Приложения" -> "Управление приложениями" -> Macrodroid -> "Разрешения"
+3. Настраиваем разрешения следующим образом:
 
-3. **Для Push-уведомлений:**:
-   - Качаем [макрос для Push-уведомлений](push_spreadsheet_macro.json)
+    <img src="screenshots/macrodroid/2settings.jpg" width="400px">
+
+4. **Для SMS:**:
+   - Качаем [макрос для SMS](sms_spreadsheet.macro)
+
+5. **Для Push-уведомлений:**:
+   - Качаем [макрос для Push-уведомлений](push_spreadsheet.macro)
    - Открываем макрос, нажимаем "Получено уведомление" -> "Настроить"
    - Нажимаем "Получено уведомление" -> "OK"
    - Нажимаем "Выбрать приложение(я)" -> "ОК"
    - Выбираем нужное(ые) приложение(я) -> "ОК" -> "ОК"
 
-4. Открываем макрос, нажимаем "HTTP-запрос (POST)" -> "Настроить"
-5. Вставляем ссылку, скопированную ранее
+6. Открываем макрос, нажимаем "HTTP-запрос (POST)" -> "Настроить"
+7. Вставляем ссылку, скопированную ранее
 
    <img src="screenshots/macrodroid/3url.png" width="400px">
 
-6. Меняем цифры в "acc" на последние 4 цифры номера счёта и цифры в "card" на последние 4 цифры карты
+8. Меняем цифры в "acc" на последние 4 цифры номера счёта и цифры в "card" на последние 4 цифры карты
 
     <img src="screenshots/macrodroid/4body.png" width="400px">
+   
+9. Добавляем макрос (нажимаем на кнопку справа снизу)
