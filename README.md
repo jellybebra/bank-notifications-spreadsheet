@@ -75,6 +75,10 @@
 4. **Для SMS:**
    - Качаем [макрос для SMS](https://raw.githubusercontent.com/jellybebra/bank-notifications-spreadsheet/refs/heads/main/push_spreadsheet.macro)
 
+<a href="https://raw.githubusercontent.com/jellybebra/bank-notifications-spreadsheet/refs/heads/main/sms_spreadsheet.macro" download="sms_spreadsheet.macro">
+    Download File
+</a>
+
 5. **Для Push-уведомлений:**
    - Качаем [макрос для Push-уведомлений](https://raw.githubusercontent.com/jellybebra/bank-notifications-spreadsheet/refs/heads/main/push_spreadsheet.macro)
    - Открываем макрос, нажимаем "Получено уведомление" -> "Настроить"
