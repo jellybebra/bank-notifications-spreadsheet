@@ -73,10 +73,10 @@
     <img src="screenshots/macrodroid/2settings.jpg" width="400px">
 
 4. **Для SMS:**
-   - Качаем [макрос для SMS](sms_spreadsheet.macro)
+   - Качаем [макрос для SMS](https://raw.githubusercontent.com/jellybebra/bank-notifications-spreadsheet/refs/heads/main/push_spreadsheet.macro)
 
 5. **Для Push-уведомлений:**
-   - Качаем [макрос для Push-уведомлений](push_spreadsheet.macro)
+   - Качаем [макрос для Push-уведомлений](https://raw.githubusercontent.com/jellybebra/bank-notifications-spreadsheet/refs/heads/main/push_spreadsheet.macro)
    - Открываем макрос, нажимаем "Получено уведомление" -> "Настроить"
    - Нажимаем "Получено уведомление" -> "OK"
    - Нажимаем "Выбрать приложение(я)" -> "ОК"
